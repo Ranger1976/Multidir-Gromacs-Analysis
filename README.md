@@ -24,7 +24,7 @@ perl ./analyse_multidir.pl -h
 to see a list of options and get some info.
 
 # Requirements to run this tool
-* Multiple directories, each containing a .xvg and .tpr file of the same name (e.g., md.xtc and md.tpr), same length and corresponding to the same system
+* Multiple directories, each containing a .xtc and .tpr file of the same name (e.g., md.xtc and md.tpr), same length and corresponding to the same system
 * An index file on the top level directory (need to have the index group relevant to run trjconv - usally protein, CA as group 3 and a ligand group if relevant)
 * A reference file for RMSD calculations, on the top directory, such as em.tpr
 
